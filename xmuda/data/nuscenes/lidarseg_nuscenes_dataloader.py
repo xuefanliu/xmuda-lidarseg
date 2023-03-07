@@ -263,7 +263,7 @@ class NuScenesSCN(NuScenesBase):
 #=========================================================================================================
 def compute_class_weights():
     # preprocess_dir = '/datasets_local/datasets_mjaritz/nuscenes_preprocess/preprocess'
-    preprocess_dir = '/home/lxf/Workspace/Science/xMUDA/xmuda/xmuda/data/nuscenes/preprocess'
+    preprocess_dir = '/home/lxf/Workspace/Science/xMUDA/xmuda/xmuda/data/nuscenes/lidarseg_preprocess'
     # split = ('train_usa', 'test_usa')
     split = ('train_day', 'test_day')
     dataset = NuScenesBase(split,
@@ -289,7 +289,7 @@ def test_NuScenesSCN():
     from xmuda.data.utils.visualize import draw_points_image_labels, draw_points_image_depth, draw_bird_eye_view
     # preprocess_dir = '/datasets_local/datasets_mjaritz/nuscenes_preprocess/preprocess'
     # nuscenes_dir = '/datasets_local/datasets_mjaritz/nuscenes_preprocess'
-    preprocess_dir = '/home/lxf/Workspace/Science/xMUDA/xmuda/xmuda/data/nuscenes/preprocess'
+    preprocess_dir = '/home/lxf/Workspace/Science/xMUDA/xmuda/xmuda/data/nuscenes/lidarseg_preprocess'
     nuscenes_dir = '/media/lxf/Data/nuScenes'
     # split = ('train_singapore',)
     # pselab_paths = ('/home/docker_user/workspace/outputs/xmuda/nuscenes/usa_singapore/xmuda/pselab_data/train_singapore.npy',)
